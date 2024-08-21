@@ -11,7 +11,6 @@ import torchvision
 import torchvision.transforms as transforms
 from torchvision import datasets
 
-from load_data import load_CelebAHQ256
 from util import training_loss, sampling
 from util import rescale, find_max_epoch, print_size
 
